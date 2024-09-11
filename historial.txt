@@ -1,0 +1,79 @@
+    1  ls
+    2  cd repogit/
+    3  ls
+    4  git clone https://github.com/fberacochea/repo_arq.git
+    5  ls
+    6  vagrant halt
+    7  cd ..
+    8  vagrant halt
+    9  cd repogit/
+   10  cd repo_arq/
+   11  ls
+   12  ls -la
+   13  clear
+   14  ls
+   15  cd ..
+   16  ls
+   17  rm repo_arq/
+   18  rm -a repo_arq/
+   19  rm -- help
+   20  rm --help
+   21  rm -d repo_arq/
+   22  rm -R repo_arq/
+   23  ls
+   24  clear
+   25  git clone https://github.com/fberacochea/repo_arq.git
+   26  ls
+   27  cd repo_arq/
+   28  ls
+   29  cd ..
+   30  history
+   31  history > historial.txt
+   32  ls
+   33  cat historial.txt 
+   34  git status
+   35  ls
+   36  md historial.txt repo_arq/
+   37  cd repo_arq/
+   38  history > historial.txt
+   39  git status
+   40  git add .
+   41  git status
+   42  git commit -m "Primer commit"
+   43  git config --global user.email "francoberacochea@gmail.com"
+   44  git config --global user.name "fberacochea"
+   45  git commit -m "Primer commit"
+   46  git push 
+   47  cd ..
+   48  ls
+   49  rm historial.txt 
+   50  exit
+   51  ls
+   52  cd repogit/
+   53  ls -l
+   54  sudo rm -r repo_arq/
+   55  ls -l
+   56  git clone git@github.com:fberacochea/repo_arq.git
+   57  ls
+   58  echo hola
+   59  echo hola > hola.txt
+   60  ls -l
+   61  git status
+   62  ls -l
+   63  rm hola.txt 
+   64  cd repo_arq/
+   65  echo hola > hola.txt
+   66  ls -l
+   67  git status
+   68  git add .
+   69  git status
+   70  git commit -m "Primer comit 311"
+   71  git push
+   72  cd ..
+   73  sudo rm -r repo_arq/
+   74  ls 
+   75  git clone git@github.com:fberacochea/repo_arq.git
+   76  sudo rm -r repo_arq/
+   77  git clone git@github.com:fberacochea/repo_beracochea.git
+   78  cd repo_beracochea/
+   79  history > historial.txt
